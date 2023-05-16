@@ -13,21 +13,23 @@ console.log(arrayContainers); // i can have interactions now
 
 //  I need to identify which elements are even and which are odd
 arrayContainers.map((elementInArray, index) => {
-    elementInArray.addEventListener("click", () => {
-        console.log(index);
-        console.log(elementInArray);
-        if (index % 2 === 0) {
+    console.log(index);
+    console.log(elementInArray);
+    if (index % 2 === 0) {
+        elementInArray.classList.add("initialWhite");
+        elementInArray.addEventListener("click", () => {
             elementInArray.classList.toggle("black");
             toggleText(elementInArray, "Soy de color negro");
             //showResponse('Soy de color negro', 'responseContainer');
-
-        } else {
+        });
+    } else {
+        elementInArray.classList.add("initialBlack");
+        elementInArray.addEventListener("click", () => {
             elementInArray.classList.toggle("white");
             toggleText(elementInArray, "Soy de color blanco");
             // showResponse('Soy de color blanco', 'responseContainer');
-
-        }
-    });
+        });
+    }
 });
 
 const toggleText = (element, text) => {
