@@ -1,0 +1,30 @@
+html,
+body {
+    color: #525857;
+    font-size: 16px;
+    margin: 0;
+}
+
+body {
+    padding: 2em;
+}
+
+h2,
+h3 {
+    color: black;
+    font-style: oblique;
+}
+
+h2 {
+    margin-top: 0.25em;
+}
+
+ol li {
+    margin-bottom: 0.75em;
+}
+
+#container {
+    background-color: #eff8ff;
+    padding: 1em;
+    width: 640px;
+}

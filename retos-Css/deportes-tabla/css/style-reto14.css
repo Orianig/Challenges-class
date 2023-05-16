@@ -1,0 +1,41 @@
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+
+}
+
+body {
+    background-image: url(../imagenes/pinguinos-emperador-600x450.jpg);
+    background-repeat: no-repeat;
+    background-size: 72% auto;
+    background-position: center;
+    padding-bottom: 16em;
+}
+
+.table-odd-bg {
+    background-color: #edebeb;
+    box-shadow: 0px 0px 14px 0px rgba(148, 145, 148, 1);
+    border-collapse: collapse;
+    margin: 15em auto;
+    width: 50%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-odd-bg th {
+    background-color: rgb(194, 217, 160);
+}
+
+.table-odd-bg td,
+.table-odd-bg th {
+    border: 1px solid #706f6f;
+    cursor: pointer;
+    padding: 0.5em;
+    transition: all 0.3s;
+}
+
+.table-odd-bg td:hover {
+    background-color: rgba(251, 85, 146, 0.5);
+}

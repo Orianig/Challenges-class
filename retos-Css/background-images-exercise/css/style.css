@@ -1,0 +1,115 @@
+html,
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/ac.jpg);
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 2px;
+    margin: 2em auto;
+    max-width: 840px;
+    text-align: center;
+    width: 100%;
+}
+
+#grid-container .grid-item {
+    background-position: center;
+    border: 1px solid rgb(42, 41, 41);
+    box-sizing: border-box;
+    height: 200px;
+    padding: 1em;
+}
+
+/* First row */
+#grid-container .first-row-bg {
+    background-image: url(../img/back_mantel.jpg);
+
+}
+
+#grid-container .first-row-bg:nth-child(1) {
+    background-repeat: repeat;
+}
+
+
+#grid-container .first-row-bg:nth-child(2) {
+    align-items: center;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+#grid-container .first-row-bg:nth-child(2) .first-child-bg {
+    background-image: url(../img/back_mantel.jpg);
+    height: 100%;
+    /* Para que funcione el margin vertical debe tener un alto fijo */
+    width: 100%;
+}
+
+#grid-container .first-row-bg:nth-child(3) {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grid-container .first-row-bg:nth-child(4) {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+/* Second row */
+#grid-container .second-row-bg1 {
+    background-image: url(../img/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#grid-container .second-row-bg2 {
+    background-color: #fff;
+    background-image: url(../img/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+#grid-container .second-row-bg3 {
+    background-color: #fff;
+    background-image: url(../img/dh_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#grid-container .second-row-bg4 {
+    background-color: #fff;
+    background-image: url(../img/dh_3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Third row */
+#grid-container .third-row-bg1 {
+    background: rgb(145, 251, 105);
+    background: linear-gradient(90deg, rgba(145, 251, 105, 1) 0%, rgba(88, 122, 90, 1) 66%);
+}
+
+#grid-container .third-row-bg2 {
+    background: rgb(182, 102, 75);
+    background: linear-gradient(180deg, rgba(182, 102, 75, 1) 0%, rgba(122, 39, 5, 1) 68%, rgba(173, 102, 57, 1) 100%);
+}
+
+#grid-container .third-row-bg3 {
+    background: rgb(172, 195, 151);
+    background: linear-gradient(180deg, rgba(172, 195, 151, 1) 0%, rgba(60, 81, 53, 1) 100%);
+}
+
+#grid-container .third-row-bg4 {
+    background: rgb(172, 195, 151);
+    background: linear-gradient(180deg, rgba(172, 195, 151, 0.11817226890756305) 0%, rgba(60, 81, 53, 1) 100%);
+}

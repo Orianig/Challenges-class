@@ -1,0 +1,29 @@
+body {
+    background: #FFF9EF;
+    color: #3f4443;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+b {
+    color: #5c7893;
+}
+
+h3 {
+    color: #3f4443;
+    background: #FDDB90;
+    margin: 0;
+}
+
+h2 {
+    color: #5c7893;
+}
+
+em {
+    color: #5c7893;
+}
+
+div {
+    padding-left: 2em;
+}

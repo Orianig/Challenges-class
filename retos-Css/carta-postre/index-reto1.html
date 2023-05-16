@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 1</title>
+    <link href="css/style-reto1.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h2> Texto para el ejercicio</h2>
+        <h3> Secciones y líneas general de un documento HTML₅</h3>
+        <div>
+            La especificación HTML₅ trae mucho nuevos elementos a los desarolladores web,
+            permitiéndoles describir la estructura de un documento web con semántica estandarizada. Este
+            documento describe estos elementos y cómo usarlos para definir el perfil de cualquier
+            documento.
+        </div>
+        <h3> Problemas resueltos por HTML₅</h3>
+        <div>
+            La definición de la estructura de un documento HTML4 y su algoritmo de perfilado es muy
+            tosco y genera numerosos problemas:
+        </div>
+        <div>
+            <ol>
+                <li>
+                    HTML₅ quita la necesidad de elementos &lt;div> para definir secciones semánticas sin definir
+                    valores específicos para los atributos class, introduciendo un nuevo elemento, &ltsection>, el
+                    elemento de sección HTML.
+                </li>
+                <li>
+                    Mezclar varios documentos es dificil: la inclusión de un sub-documento en un documento
+                    principal. Esto se resuelve en HTML₅ con los elementos seleccionados (&lt;article>, &lt;section>,
+                    &lt;nav>, y &lt;aside>) son siempre subsecciones de su sección ancestra más cercana.
+                </li>
+                <li>
+                    HTML₅ introduce el elemento &lthgroup> que oculta todos los elementos de cabecera excepto
+                    el primero de más alto rango (por ejemplo, &lt;hgroup>&lt;h1>Justine&lt;/h1>&lt;h2>Les Malheurs de
+                    la Vertu &lt;/h2>&lt;/hgroup> crea el perfil 1. Justine).
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
