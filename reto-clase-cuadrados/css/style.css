@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+    background-color: rgb(154, 173, 186);
+    padding: 0.5rem;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f3f1f1;
+}
+
+
+.squares {
+    display: flex;
+    margin-left: 30rem;
+    margin-top: 10rem;
+
+}
+
+.initialWhite {
+    background-color: white;
+    cursor: pointer;
+    height: 10em;
+    margin: 1em;
+    width: 10em;
+}
+
+.initialBlack {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    height: 10em;
+    margin: 1em;
+    width: 10em;
+}
+
+.black {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    height: 10em;
+    margin: 1em;
+    text-align: center;
+    width: 10em;
+}
+
+.white {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    height: 10em;
+    margin: 1em;
+    text-align: center;
+    width: 10em;
+}
+
+.square-text {
+    margin-top: 11em;
+}
